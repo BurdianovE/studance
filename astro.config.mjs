@@ -4,4 +4,6 @@ import node from '@astrojs/node';
 export default defineConfig({
   output: 'server',
   adapter: node({ mode: 'standalone' }),
+  site: 'https://github.io/',
+  base: '/', // Имя вашего репозитория со слешами
 });
